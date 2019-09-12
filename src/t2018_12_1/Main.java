@@ -10,7 +10,7 @@ public class Main {
         int g = input.nextInt();
 
         //总时间
-        int time = 0;
+        long time = 0;
 
         int instance = input.nextInt();
         int k,t;
@@ -26,6 +26,7 @@ public class Main {
                     break;
                 case 2:
                     time += t + r;
+                    break;
                 case 3:
                     break;
             }
